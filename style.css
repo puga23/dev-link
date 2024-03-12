@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 126px;
+  padding: 24px;
+}
+
+.head-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 16px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.357);
+  border-radius: 12px;
+  height: 78px;
+}
+
+.head-div1 {
+  display: flex;
+}
+
+.link-1 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: purple;
+  background-color: #efebff;
+  width: 122px;
+  height: 46px;
+  padding: 11px 27px;
+  border-radius: 8px;
+}
+
+.link-1 img {
+  margin-right: 8px;
+}
+
+.link-2 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: gray;
+  width: 187px;
+  height: 46px;
+  padding: 11px 27px;
+  border-radius: 8px;
+}
+
+.link-2 img {
+  margin-right: 8px;
+}
+
+.link-3 {
+  text-transform: capitalize;
+  text-decoration: none;
+  border: 1px solid purple;
+  border-radius: 8px;
+  padding: 11px 27px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.357);
+}
+
+.link-3:active {
+  box-shadow: none;
+  color: purple;
+  background-color: blue;
+}
+
+.body-div {
+  display: flex;
+  justify-content: center;
+}
+
+.div1 {
+  height: 679px;
+  width: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.div2 {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  height: 679px;
+  width: 806px;
+
+}
+
+h1 {
+  height: 48px;
+  width: 728px;
+  color: rgb(29, 27, 27);
+}
+
+p {
+  height: 24px;
+  width: 728px;
+  color: rgb(122, 119, 119);
+}
+
+.add-div {
+  height: 46px;
+  border-radius: 8px;
+  border-color: purple;
+  color: purple;
+  margin-top: 40px;
+  font-weight: bold;
+  background-color: white;
+  padding: 11px;
+}
+
+form {
+  width: 728px;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 24px;
+}
+
+.main-div-link {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.link2-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+
+}
+
+.link1-1 {
+  height: 24px;
+  width: 74px;
+  color: gray;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.remove {
+  height: 24px;
+  width: 61px;
+  color: gray;
+  text-decoration: none;
+  text-transform: capitalize;
+
+}
+
+label {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+
+select,
+input {
+  height: 48px;
+  width: 688px;
+  color: black;
+  border-radius: 8px;
+  border: 1px solid darkgray;
+  padding: 16px;
+}
+
+.box {
+  margin-top: 24px;
+}
+
+.btn {
+  width: 91px;
+  height: 46px;
+
+  background-color: purple;
+  border-radius: 8px;
+  padding: 11px 27px;
+  color: white;
+  margin-top: 48px;
+  border: none;
+  align-self: end;
+}
